@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    font-family: "Jost", sans-serif;
+    color: #141415;
+    background-color: #F4F5F6;
+}
+
+
+
+/* Header */
+.nav-link {
+    color: #57585C;
+}
+
+.count {
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    width: 22px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* Main */
+main {
+    margin-top: 10rem;
+}
+
+.main-head {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 5.2rem;
+    max-width: 90%;
+    margin-bottom: 35px;
+}
+
+.hero img {
+    height: auto;
+    width: 100%;
+}
+ .hero button {
+    background-color: #a1a1a1;
+    border-radius: 0;
+    min-width: 130px;
+ }
+
+ .hero .content {
+    position: absolute;
+    bottom: 0;
+ }
+
+ .all-glasses img {
+    height: 480px;
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .glasses-types .img {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .glasses-types > div {
+    text-align: center;
+    border: 1px solid #cecece;
+
+ }
+
+ .glasses-types .row {
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+
+ }
+
+ .mb-80 {
+    margin-bottom: 80px;
+ }
+ .mt-80 {
+    margin-top: 80px;
+ }
+
+
+
+
+ .shop-all h2{
+    font-size: 3.5rem;
+ }
+
+ .types .img {
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+ }
+
+ .types img {
+   width: 80%;
+   margin: 0 auto;
+ }
+ .row.types {
+    border-bottom: 1px solid #cecece;
+ }
+
+ .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: none;
+    color: #a1a1a1;
+    border-radius: 0;
+    transition: none;
+    padding: 5px;
+ }
+
+ .nav-tabs .nav-link {
+    padding: 5px;
+    margin: 0;
+    border: none;
+ }
+
+  /* .tabs .col4 > div {
+    border: 1px solid #cecece;
+ } */
+
+
+ .cat-img {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .tabs .swap-box .second {
+    display: none;
+ }
+ .tabs .swap-box .second button {
+    background-color: #754ef6;
+    color: #fff;
+ }
+
+ .tabs .swap-box:hover > .second {
+    display: block;
+ }
+
+ .tabs .swap-box:hover > .first {
+    display: none;
+ }
+
+ .dropdown-toggle::after {
+    content: none !important;
+ }
+ .dropdown-toggle.show, .dropdown-toggle.btn:first-child:active:focus-visible  {
+    border: none;
+ }
+
+
+
+
+
+@media screen and (min-width: 990px) {
+    .navbar-nav {
+        margin-right: 100px;
+    }
+}
